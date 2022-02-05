@@ -1,10 +1,12 @@
 import java.util.Scanner;
+
 /**
  * This is an example of a Java class
  * @author CésarJZO
  * @version 1.0
  */
 public class Main {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // TODO be better than this
@@ -18,6 +20,7 @@ public class Main {
 
         String[] words = new String[5];
 
+        System.out.print("Type five words for each line");
         for (String s : words) {
             s = scanner.next();
             System.out.println(s);
